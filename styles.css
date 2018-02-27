@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'Black Chancery';
+  src: url('fonts/BLKCHCRY.TTF') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+* {
+    font-family: 'Crete Round', serif;
+}
+
+header{
+    background-image: linear-gradient(rgba(120,120,120,1),rgba(120,120,120,0)), url("img/background.png");
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    margin-left: 1em;
+    vertical-align: top;
+    text-align: center;
+}
+
+
+header a:hover {
+    color: hotpink;
+}
+
+body {
+    background-image: url(img/pink-gingham.jpg);
+    background-size: 100%;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 2em;
+}
+
+.title {
+    display:inline-block;
+    position: relative;
+    height: 5em;
+    vertical-align: middle;
+    margin-right: 3em;
+}
+
+.atelier {
+    font-family: 'Black Chancery', sans-serif;
+    font-size: 1.5em;
+}
+
+.socialMediaButton {
+    margin-left: 20%;
+}
+
+.slide-show {
+    width: 40rem;
+    display: none;
+}
+
+.port-item {
+	margin: 0;
+	position: relative;
+}
+
+.menu-item {
+    display: inline-block;
+    height: 15 em;
+    width: 33%;
+    margin-top: 1em;
+}
+
+.menu-label {
+    display: inline;
+}
+
+.menu-item img {
+    width: 10em;
+    height: 10em; 
+}
