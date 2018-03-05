@@ -8,15 +8,16 @@
 }
 
 header{
-    background-image: linear-gradient(rgba(120,120,120,1),rgba(120,120,120,0)), url("img/background.png");
+    background-image: linear-gradient(rgba(240,240,240,1),rgba(240,240,240,0)), url("img/background.png");
 }
 
 header a {
     color: black;
     text-decoration: none;
-    margin-left: 1em;
     vertical-align: top;
     text-align: center;
+    display: inline-block;
+    width: 15%;
 }
 
 
@@ -31,16 +32,25 @@ body {
 
 .logo {
     display: inline-block;
+    height: 20em;
     vertical-align: middle;
     margin-right: 2em;
 }
 
 .title {
-    display:inline-block;
+    display:inline-block;   
     position: relative;
     height: 5em;
     vertical-align: middle;
     margin-right: 3em;
+}
+
+.name {
+    font-size: x-large;
+}
+
+.contact-details {
+    font-size: large;
 }
 
 .atelier {
@@ -50,6 +60,7 @@ body {
 
 .socialMediaButton {
     margin-left: 20%;
+    height: 2.3em;
 }
 
 .slide-show {
