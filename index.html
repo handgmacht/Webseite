@@ -7,7 +7,8 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="navBar" id="myNavBar">
+            <a href="javascript:void(0);" class="icon" onclick="mobileMenu()">&#9776;</a>
             <a class="nav-link current-page" href="index.html">Startseite</a>
             <a class="nav-link" href="about.html">Über mich</a>
             <a class="nav-link" href="angebot.html">Angebot & Preise</a>
@@ -15,9 +16,11 @@
             <a class="nav-link" href="gallery.html">Fotogalerie</a>
             <a class="nav-link" href="contact.html">Kontakt</a>
         </nav>
+        <div class="logo-schriftzug">
         <img class="logo" src="./img/logo.png">
         <p class="title name"><span class="atelier">Maßschneideratelier</span></br>
         Eckart Kathrin</p> 
+        </div>
         <p class="title contact-details">Email: kathiEckart@web.de<br>
         Mobil: 0175 / 590 2742<br>
         <a class="social-media-link" href="contact.html"><img class="socialMediaButton" src="./img/emailButton.png"></a>
@@ -73,6 +76,18 @@
             if (myIndex > x.length) {myIndex = 1}
             x[myIndex-1].style.display = "block";
             setTimeout(carousel, 10000);
+        }
+    </script>
+
+    <script>
+        function mobileMenu() {
+            var x = document.getElementById("myNavBar");
+            if (x.className === "navBar") {
+                x.className += " responsive";
+            }
+            else {
+                x.className = "navBar"
+            }
         }
     </script>
 
