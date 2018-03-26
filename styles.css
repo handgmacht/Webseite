@@ -12,17 +12,27 @@ html, body {
     padding: 0;
 }
 
-header{
-    background-image: linear-gradient(rgba(240,240,240,1),rgba(240,240,240,0)), url("img/background.png");
-}
-
 body {
     background-image: url(img/pink-gingham.jpg);
     background-size: 100%;
+    width: 70%;
+    margin: auto;
+}
+
+.centerContent {
+    background-image: linear-gradient(rgba(240,240,240,1),rgba(240,240,240,0)), url("img/background.png");
+    margin-left: -22%;
+    margin-right: -22%;
+    padding:0;
+}
+
+header{
+    margin-left: 22%;
+    margin-right: 22%;
 }
 
 nav {
-    margin-left: 7%;
+
 }
 
 .nav-link {
@@ -46,6 +56,7 @@ nav {
 nav .icon {
     display: none;
     color: black;
+    font-size: xx-large;
     text-decoration: none;
     vertical-align: top;
     text-align: center;
@@ -73,6 +84,10 @@ nav .icon:hover {
   }
 }
 
+.logo-schriftzug {
+    display: inline-block;
+}
+
 .logo {
     display: inline-block;
     height: 20em;
@@ -87,6 +102,29 @@ nav .icon:hover {
     height: 5em;
     vertical-align: middle;
     margin-right: 3em;
+}
+
+.name {
+    font-size: x-large;
+}
+
+.contact-details {
+    font-size: large;
+}
+
+.atelier {
+    font-family: 'Black Chancery', sans-serif;
+    font-size: 1.5em;
+}
+
+.social-media-link {
+    display: inline-block;
+    margin: 1em 0 0 1em;
+    width: 2em;
+}
+
+.socialMediaButton {
+    height: 2.3em;
 }
 
 @media screen and (max-width: 1000px) {
@@ -111,29 +149,6 @@ nav .icon:hover {
         margin-left: auto;
         margin-right: auto;
     }
-}
-
-.name {
-    font-size: x-large;
-}
-
-.contact-details {
-    font-size: large;
-}
-
-.atelier {
-    font-family: 'Black Chancery', sans-serif;
-    font-size: 1.5em;
-}
-
-.social-media-link {
-    display: inline-block;
-    margin: 1em 0 0 1em;
-    width: 2em;
-}
-
-.socialMediaButton {
-    height: 2.3em;
 }
 
 .slide-show {
@@ -187,14 +202,15 @@ nav .icon:hover {
 }
 
 footer {
-    position: absolute;
+    
     bottom:0;
     background-color: darkslategray;
-    width: 100%
+    margin-left: -22%;
+    margin-right: -22%;
 }
 
 footer p {
-    margin-left: 3em;
+    margin-left: 22%;
     color: #a7abb2;
 }
 
