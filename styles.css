@@ -15,7 +15,7 @@ html, body {
 body {
     background-image: url(img/pink-gingham.jpg);
     background-size: 100%;
-    width: 70%;
+    width: 80%;
     margin: auto;
 }
 
@@ -67,20 +67,18 @@ nav .icon:hover {
     color: pink;
 }
 
-@media screen and (max-width: 800px) {
-  .navBar a:not(:first-child) {display: none;}
-  .navBar a.icon {
-    display: inline-block;
-  }
-}
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1100px) {
   .navBar.responsive {position: relative;}
 
   .navBar.responsive a {
     float: none;
     display: block;
     text-align: left;
+  }
+    
+  .navBar a:not(:first-child) {display: none;}
+  .navBar a.icon {
+    display: inline-block;
   }
 }
 
@@ -127,10 +125,14 @@ nav .icon:hover {
     height: 2.3em;
 }
 
-@media screen and (max-width: 1000px) {
-    .logo-schriftzug {
+@media screen and (max-width: 1100px) {
+    .logo-schriftzug .name {
         width: 100%;
         text-align: center;
+    }
+    
+    .logo {
+        margin:auto;
     }
     .contact-details {
         width: 100%;
@@ -201,15 +203,18 @@ nav .icon:hover {
     text-align: center;
 }
 
-footer {
-    
+footer {   
+    flex-shrink: 0;
+    height: 2em;
+    width: 150%;
+    position:fixed;
     bottom:0;
     background-color: darkslategray;
     margin-left: -22%;
     margin-right: -22%;
 }
 
-footer p {
+footer span {
     margin-left: 22%;
     color: #a7abb2;
 }
