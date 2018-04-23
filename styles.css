@@ -68,18 +68,21 @@ nav .icon:hover {
 }
 
 @media screen and (max-width: 1100px) {
-  .navBar.responsive {position: relative;}
-
-  .navBar.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
     
-  .navBar a:not(:first-child) {display: none;}
-  .navBar a.icon {
-    display: inline-block;
-  }
+    .navBar a:not(:first-child) {display: none;}
+    .navBar a.icon {
+        display: inline-block;
+    }
+    
+    .navBar.responsive {position: relative;}
+
+    .navBar.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    
+  
 }
 
 .logo-schriftzug {
