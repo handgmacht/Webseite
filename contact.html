@@ -31,8 +31,8 @@
     <div class="centerContent">
         <table style="margin-left:22%;margin-right:22%;width:66%;margin-bottom:22%">
             <tr>
-                <th style="text-align: left;width:50%">Kontaktdaten</th>
-                <th style="width:50%;margin-left:50%">Kontaktformular</th> 
+                <th><span class="th">Kontaktdaten</span></th>
+                <th><span  class="th th-right" scope="col">Kontaktformular</span></th> 
             </tr>
             <tr>
                 <td>
@@ -43,21 +43,24 @@
                     Tel.: 0175 / 590 2742<br>
                     Email: kathiEckart@web.de
                 </td>
-                <td style="text-align:center">
-                    <input type="text" name="name" placeholder="Name">
-                    <input type="text" name="email" placeholder="E-Mail">
-                    <input type="text" name="telefon" placeholder="Telefon">
-                    <input type="text" name="plz" placeholder="PLZ, Ort">
-                    <input type="text" name="betreff" placeholder="Betreff">
-                    <textarea type="text" name="nachricht" placeholder="Nachricht" rows="5"></textarea>
+                <td rowspan="2" style="text-align:center">
+                    <form method="post" name="myemailform" action="form-to-email.php">
+                        <input class="table-form" type="text" name="name" placeholder="Name">
+                        <input class="table-form" type="text" name="email" placeholder="E-Mail">
+                        <!--input class="table-form" type="text" name="telefon" placeholder="Telefon">
+                        <input class="table-form" type="text" name="plz" placeholder="PLZ, Ort">
+                        <input class="table-form" type="text" name="betreff" placeholder="Betreff"-->
+                        <textarea class="table-form" type="text" name="message" placeholder="Nachricht" rows="5"></textarea>
+                        <input class="button" style="float:left;margin-left:9%" name="submit" type="submit" value="Senden">
+                    </form>
                 </td>
             </tr>
             <tr>
-                <th style="display:block;text-align: left;width:50%">Anfahrt</th>
+                <th><span class="th" style="display:block">Anfahrt</span></th>
             </tr>
             <tr>
                 <td>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2643.5145554776304!2d12.425591315547248!3d48.50419997925439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47758fc7493c6361%3A0x7fd3667c19724e64!2sPostweg+11%2C+84175+Gerzen%2C+Germany!5e0!3m2!1sen!2suk!4v1524513716722" width="100%" height="250%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2643.5145554776304!2d12.425591315547248!3d48.50419997925439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47758fc7493c6361%3A0x7fd3667c19724e64!2sPostweg+11%2C+84175+Gerzen%2C+Germany!5e0!3m2!1sen!2suk!4v1524513716722" width="100%" height="200%" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </td>
             </tr>
         </table>

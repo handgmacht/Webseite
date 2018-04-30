@@ -201,6 +201,34 @@ nav .icon:hover {
     border-radius:10px;
 }
 
+th {
+    padding: 1em 0 1em 0;
+    width:50%;
+
+}
+
+.th {
+    font-weight:normal;
+    background-color: #a7abb2;
+    text-decoration: none;
+    font-size: large;
+    color: white;
+    padding: .5em;
+    border-radius:10px;
+    float:left;
+}
+
+
+
+.th-right{
+    margin-left:10%;
+}
+
+.table-form {
+    width:80%;
+    margin:.5em;
+}
+
 .temp {
     font-size: x-large;
     text-align: center;
