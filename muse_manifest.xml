@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="massschneideratelier.de" resolutions="1x,2x" timestamp="1532293835919">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="gmail.com" resolutions="1x,2x" timestamp="1532294236959">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="master_a-master.css" crc="200870949" ref="galerie:index:preise:maßanfertigung:kontakt"/>
@@ -247,9 +247,9 @@
       <caption webpage="maßanfertigung" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="3938118241" seo="true" mt="1532293434662" redirect="true"/>
-  <file name="preise.html" crc="4085816510" seo="true" mt="1532293434662" redirect="true"/>
-  <file name="galerie.html" crc="146195534" seo="true" mt="1532293622284" redirect="true"/>
-  <file name="maßanfertigung.html" crc="39988925" seo="true" mt="1532293434662" redirect="true"/>
-  <file name="kontakt.html" crc="3785559613" seo="true" mt="1532293434662" redirect="true"/>
+  <file name="index.html" crc="3764808722" seo="true" mt="1532294158471" redirect="true"/>
+  <file name="preise.html" crc="82429354" seo="true" mt="1532294158471" redirect="true"/>
+  <file name="galerie.html" crc="4158009410" seo="true" mt="1532294158471" redirect="true"/>
+  <file name="maßanfertigung.html" crc="80200927" seo="true" mt="1532294158471" redirect="true"/>
+  <file name="kontakt.html" crc="3794757284" seo="true" mt="1532294158471" redirect="true"/>
 </manifest>
